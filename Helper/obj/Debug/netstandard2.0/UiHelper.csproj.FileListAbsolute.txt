@@ -1,0 +1,9 @@
+C:\Users\Alexandru Mutescul\Desktop\Repo 8\Helper\bin\Debug\netstandard2.0\UiHelper.deps.json
+C:\Users\Alexandru Mutescul\Desktop\Repo 8\Helper\bin\Debug\netstandard2.0\UiHelper.dll
+C:\Users\Alexandru Mutescul\Desktop\Repo 8\Helper\bin\Debug\netstandard2.0\UiHelper.pdb
+C:\Users\Alexandru Mutescul\Desktop\Repo 8\Helper\obj\Debug\netstandard2.0\UiHelper.csprojAssemblyReference.cache
+C:\Users\Alexandru Mutescul\Desktop\Repo 8\Helper\obj\Debug\netstandard2.0\UiHelper.csproj.CoreCompileInputs.cache
+C:\Users\Alexandru Mutescul\Desktop\Repo 8\Helper\obj\Debug\netstandard2.0\UiHelper.AssemblyInfoInputs.cache
+C:\Users\Alexandru Mutescul\Desktop\Repo 8\Helper\obj\Debug\netstandard2.0\UiHelper.AssemblyInfo.cs
+C:\Users\Alexandru Mutescul\Desktop\Repo 8\Helper\obj\Debug\netstandard2.0\UiHelper.dll
+C:\Users\Alexandru Mutescul\Desktop\Repo 8\Helper\obj\Debug\netstandard2.0\UiHelper.pdb

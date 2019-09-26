@@ -1,0 +1,96 @@
+C:\Users\Alexandru Mutescul\Desktop\Repo\Keywords\obj\Debug\netstandard2.0\Keywords.csprojAssemblyReference.cache
+C:\Users\Alexandru Mutescul\Desktop\Repo\Keywords\obj\Debug\netstandard2.0\Keywords.csproj.CoreCompileInputs.cache
+C:\Users\Alexandru Mutescul\Desktop\Repo\Keywords\obj\Debug\netstandard2.0\Keywords.AssemblyInfoInputs.cache
+C:\Users\Alexandru Mutescul\Desktop\Repo\Keywords\obj\Debug\netstandard2.0\Keywords.AssemblyInfo.cs
+C:\Users\Alexandru Mutescul\Desktop\Repo\Keywords\bin\Debug\netstandard2.0\Keywords.deps.json
+C:\Users\Alexandru Mutescul\Desktop\Repo\Keywords\bin\Debug\netstandard2.0\Keywords.dll
+C:\Users\Alexandru Mutescul\Desktop\Repo\Keywords\bin\Debug\netstandard2.0\Keywords.pdb
+C:\Users\Alexandru Mutescul\Desktop\Repo\Keywords\bin\Debug\netstandard2.0\ClientUiApi.dll
+C:\Users\Alexandru Mutescul\Desktop\Repo\Keywords\bin\Debug\netstandard2.0\FrameworkCore.dll
+C:\Users\Alexandru Mutescul\Desktop\Repo\Keywords\bin\Debug\netstandard2.0\Helper.dll
+C:\Users\Alexandru Mutescul\Desktop\Repo\Keywords\bin\Debug\netstandard2.0\SeleniumClient.dll
+C:\Users\Alexandru Mutescul\Desktop\Repo\Keywords\bin\Debug\netstandard2.0\SeleniumClient.pdb
+C:\Users\Alexandru Mutescul\Desktop\Repo\Keywords\bin\Debug\netstandard2.0\ClientUiApi.pdb
+C:\Users\Alexandru Mutescul\Desktop\Repo\Keywords\bin\Debug\netstandard2.0\FrameworkCore.pdb
+C:\Users\Alexandru Mutescul\Desktop\Repo\Keywords\bin\Debug\netstandard2.0\Helper.pdb
+C:\Users\Alexandru Mutescul\Desktop\Repo\Keywords\obj\Debug\netstandard2.0\Keywords.csproj.CopyComplete
+C:\Users\Alexandru Mutescul\Desktop\Repo\Keywords\obj\Debug\netstandard2.0\Keywords.dll
+C:\Users\Alexandru Mutescul\Desktop\Repo\Keywords\obj\Debug\netstandard2.0\Keywords.pdb
+C:\Users\Alexandru Mutescul\Desktop\Repo 2\Keywords\bin\Debug\netstandard2.0\Keywords.deps.json
+C:\Users\Alexandru Mutescul\Desktop\Repo 2\Keywords\bin\Debug\netstandard2.0\Keywords.dll
+C:\Users\Alexandru Mutescul\Desktop\Repo 2\Keywords\bin\Debug\netstandard2.0\Keywords.pdb
+C:\Users\Alexandru Mutescul\Desktop\Repo 2\Keywords\bin\Debug\netstandard2.0\ClientUiApi.dll
+C:\Users\Alexandru Mutescul\Desktop\Repo 2\Keywords\bin\Debug\netstandard2.0\FrameworkCore.dll
+C:\Users\Alexandru Mutescul\Desktop\Repo 2\Keywords\bin\Debug\netstandard2.0\Helper.dll
+C:\Users\Alexandru Mutescul\Desktop\Repo 2\Keywords\bin\Debug\netstandard2.0\SeleniumClient.dll
+C:\Users\Alexandru Mutescul\Desktop\Repo 2\Keywords\bin\Debug\netstandard2.0\SeleniumClient.pdb
+C:\Users\Alexandru Mutescul\Desktop\Repo 2\Keywords\bin\Debug\netstandard2.0\ClientUiApi.pdb
+C:\Users\Alexandru Mutescul\Desktop\Repo 2\Keywords\bin\Debug\netstandard2.0\FrameworkCore.pdb
+C:\Users\Alexandru Mutescul\Desktop\Repo 2\Keywords\bin\Debug\netstandard2.0\Helper.pdb
+C:\Users\Alexandru Mutescul\Desktop\Repo 2\Keywords\obj\Debug\netstandard2.0\Keywords.csprojAssemblyReference.cache
+C:\Users\Alexandru Mutescul\Desktop\Repo 2\Keywords\obj\Debug\netstandard2.0\Keywords.csproj.CoreCompileInputs.cache
+C:\Users\Alexandru Mutescul\Desktop\Repo 2\Keywords\obj\Debug\netstandard2.0\Keywords.AssemblyInfoInputs.cache
+C:\Users\Alexandru Mutescul\Desktop\Repo 2\Keywords\obj\Debug\netstandard2.0\Keywords.AssemblyInfo.cs
+C:\Users\Alexandru Mutescul\Desktop\Repo 2\Keywords\obj\Debug\netstandard2.0\Keywords.csproj.CopyComplete
+C:\Users\Alexandru Mutescul\Desktop\Repo 2\Keywords\obj\Debug\netstandard2.0\Keywords.dll
+C:\Users\Alexandru Mutescul\Desktop\Repo 2\Keywords\obj\Debug\netstandard2.0\Keywords.pdb
+C:\Users\Alexandru Mutescul\Desktop\Repo 3\Keywords\bin\Debug\netstandard2.0\Keywords.deps.json
+C:\Users\Alexandru Mutescul\Desktop\Repo 3\Keywords\bin\Debug\netstandard2.0\Keywords.dll
+C:\Users\Alexandru Mutescul\Desktop\Repo 3\Keywords\bin\Debug\netstandard2.0\Keywords.pdb
+C:\Users\Alexandru Mutescul\Desktop\Repo 3\Keywords\bin\Debug\netstandard2.0\ClientUiApi.dll
+C:\Users\Alexandru Mutescul\Desktop\Repo 3\Keywords\bin\Debug\netstandard2.0\FrameworkCore.dll
+C:\Users\Alexandru Mutescul\Desktop\Repo 3\Keywords\bin\Debug\netstandard2.0\Helper.dll
+C:\Users\Alexandru Mutescul\Desktop\Repo 3\Keywords\bin\Debug\netstandard2.0\SeleniumClient.dll
+C:\Users\Alexandru Mutescul\Desktop\Repo 3\Keywords\bin\Debug\netstandard2.0\SeleniumClient.pdb
+C:\Users\Alexandru Mutescul\Desktop\Repo 3\Keywords\bin\Debug\netstandard2.0\ClientUiApi.pdb
+C:\Users\Alexandru Mutescul\Desktop\Repo 3\Keywords\bin\Debug\netstandard2.0\FrameworkCore.pdb
+C:\Users\Alexandru Mutescul\Desktop\Repo 3\Keywords\bin\Debug\netstandard2.0\Helper.pdb
+C:\Users\Alexandru Mutescul\Desktop\Repo 3\Keywords\obj\Debug\netstandard2.0\Keywords.csprojAssemblyReference.cache
+C:\Users\Alexandru Mutescul\Desktop\Repo 3\Keywords\obj\Debug\netstandard2.0\Keywords.csproj.CoreCompileInputs.cache
+C:\Users\Alexandru Mutescul\Desktop\Repo 3\Keywords\obj\Debug\netstandard2.0\Keywords.AssemblyInfoInputs.cache
+C:\Users\Alexandru Mutescul\Desktop\Repo 3\Keywords\obj\Debug\netstandard2.0\Keywords.AssemblyInfo.cs
+C:\Users\Alexandru Mutescul\Desktop\Repo 3\Keywords\obj\Debug\netstandard2.0\Keywords.csproj.CopyComplete
+C:\Users\Alexandru Mutescul\Desktop\Repo 3\Keywords\obj\Debug\netstandard2.0\Keywords.dll
+C:\Users\Alexandru Mutescul\Desktop\Repo 3\Keywords\obj\Debug\netstandard2.0\Keywords.pdb
+C:\Users\Alexandru Mutescul\Desktop\Repo 4\Keywords\bin\Debug\netstandard2.0\Keywords.deps.json
+C:\Users\Alexandru Mutescul\Desktop\Repo 4\Keywords\bin\Debug\netstandard2.0\Keywords.dll
+C:\Users\Alexandru Mutescul\Desktop\Repo 4\Keywords\bin\Debug\netstandard2.0\Keywords.pdb
+C:\Users\Alexandru Mutescul\Desktop\Repo 4\Keywords\bin\Debug\netstandard2.0\ClientUiApi.dll
+C:\Users\Alexandru Mutescul\Desktop\Repo 4\Keywords\bin\Debug\netstandard2.0\FrameworkCore.dll
+C:\Users\Alexandru Mutescul\Desktop\Repo 4\Keywords\bin\Debug\netstandard2.0\Helper.dll
+C:\Users\Alexandru Mutescul\Desktop\Repo 4\Keywords\bin\Debug\netstandard2.0\SeleniumClient.dll
+C:\Users\Alexandru Mutescul\Desktop\Repo 4\Keywords\bin\Debug\netstandard2.0\SeleniumClient.pdb
+C:\Users\Alexandru Mutescul\Desktop\Repo 4\Keywords\bin\Debug\netstandard2.0\ClientUiApi.pdb
+C:\Users\Alexandru Mutescul\Desktop\Repo 4\Keywords\bin\Debug\netstandard2.0\FrameworkCore.pdb
+C:\Users\Alexandru Mutescul\Desktop\Repo 4\Keywords\bin\Debug\netstandard2.0\Helper.pdb
+C:\Users\Alexandru Mutescul\Desktop\Repo 4\Keywords\obj\Debug\netstandard2.0\Keywords.csprojAssemblyReference.cache
+C:\Users\Alexandru Mutescul\Desktop\Repo 4\Keywords\obj\Debug\netstandard2.0\Keywords.csproj.CoreCompileInputs.cache
+C:\Users\Alexandru Mutescul\Desktop\Repo 4\Keywords\obj\Debug\netstandard2.0\Keywords.AssemblyInfoInputs.cache
+C:\Users\Alexandru Mutescul\Desktop\Repo 4\Keywords\obj\Debug\netstandard2.0\Keywords.AssemblyInfo.cs
+C:\Users\Alexandru Mutescul\Desktop\Repo 4\Keywords\obj\Debug\netstandard2.0\Keywords.csproj.CopyComplete
+C:\Users\Alexandru Mutescul\Desktop\Repo 4\Keywords\obj\Debug\netstandard2.0\Keywords.dll
+C:\Users\Alexandru Mutescul\Desktop\Repo 4\Keywords\obj\Debug\netstandard2.0\Keywords.pdb
+C:\Users\Alexandru Mutescul\Desktop\Repo 7\Keywords\obj\Debug\netstandard2.0\Keywords.csprojAssemblyReference.cache
+C:\Users\Alexandru Mutescul\Desktop\Repo 7\Keywords\obj\Debug\netstandard2.0\Keywords.csproj.CoreCompileInputs.cache
+C:\Users\Alexandru Mutescul\Desktop\Repo 7\Keywords\obj\Debug\netstandard2.0\Keywords.AssemblyInfoInputs.cache
+C:\Users\Alexandru Mutescul\Desktop\Repo 7\Keywords\obj\Debug\netstandard2.0\Keywords.AssemblyInfo.cs
+C:\Users\Alexandru Mutescul\Desktop\Repo 7\Keywords\obj\Debug\netstandard2.0\Keywords.dll
+C:\Users\Alexandru Mutescul\Desktop\Repo 7\Keywords\obj\Debug\netstandard2.0\Keywords.pdb
+C:\Users\Alexandru Mutescul\Desktop\Repo 7\Keywords\bin\Debug\netstandard2.0\Keywords.deps.json
+C:\Users\Alexandru Mutescul\Desktop\Repo 7\Keywords\bin\Debug\netstandard2.0\Keywords.dll
+C:\Users\Alexandru Mutescul\Desktop\Repo 7\Keywords\bin\Debug\netstandard2.0\Keywords.pdb
+C:\Users\Alexandru Mutescul\Desktop\Repo 7\Keywords\bin\Debug\netstandard2.0\Helper.dll
+C:\Users\Alexandru Mutescul\Desktop\Repo 7\Keywords\bin\Debug\netstandard2.0\Helper.pdb
+C:\Users\Alexandru Mutescul\Desktop\Repo 7\Keywords\obj\Debug\netstandard2.0\Keywords.csproj.CopyComplete
+C:\Users\Alexandru Mutescul\Desktop\Repo 8\Keywords\bin\Debug\netstandard2.0\Keywords.deps.json
+C:\Users\Alexandru Mutescul\Desktop\Repo 8\Keywords\bin\Debug\netstandard2.0\Keywords.dll
+C:\Users\Alexandru Mutescul\Desktop\Repo 8\Keywords\bin\Debug\netstandard2.0\Keywords.pdb
+C:\Users\Alexandru Mutescul\Desktop\Repo 8\Keywords\bin\Debug\netstandard2.0\UiHelper.dll
+C:\Users\Alexandru Mutescul\Desktop\Repo 8\Keywords\bin\Debug\netstandard2.0\UiHelper.pdb
+C:\Users\Alexandru Mutescul\Desktop\Repo 8\Keywords\obj\Debug\netstandard2.0\Keywords.csprojAssemblyReference.cache
+C:\Users\Alexandru Mutescul\Desktop\Repo 8\Keywords\obj\Debug\netstandard2.0\Keywords.csproj.CoreCompileInputs.cache
+C:\Users\Alexandru Mutescul\Desktop\Repo 8\Keywords\obj\Debug\netstandard2.0\Keywords.AssemblyInfoInputs.cache
+C:\Users\Alexandru Mutescul\Desktop\Repo 8\Keywords\obj\Debug\netstandard2.0\Keywords.AssemblyInfo.cs
+C:\Users\Alexandru Mutescul\Desktop\Repo 8\Keywords\obj\Debug\netstandard2.0\Keywords.csproj.CopyComplete
+C:\Users\Alexandru Mutescul\Desktop\Repo 8\Keywords\obj\Debug\netstandard2.0\Keywords.dll
+C:\Users\Alexandru Mutescul\Desktop\Repo 8\Keywords\obj\Debug\netstandard2.0\Keywords.pdb
