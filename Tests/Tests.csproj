@@ -6,6 +6,7 @@
     <Company>-</Company>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <FileVersion>1.0.0.0</FileVersion>
+    <PublishChromeDriver>true</PublishChromeDriver>
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
@@ -15,6 +16,7 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0" />
     <PackageReference Include="MSTest.TestAdapter" Version="2.0.0" />
     <PackageReference Include="MSTest.TestFramework" Version="2.0.0" />
+    <PackageReference Include="Selenium.Chrome.WebDriver" Version="76.0.0" />
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.5.0" />
   </ItemGroup>
   <ItemGroup>

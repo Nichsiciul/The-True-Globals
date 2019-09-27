@@ -1,11 +1,14 @@
-﻿using SeleniumClient;
+﻿using RestSharp;
+using SeleniumClient;
 
 namespace Keywords
 {
     public class WebApp
     {
-        private WebDriverClient client;
+        private WebDriverClient webClient;
         private UIKeywords ui;
+        private RestClient restClient;
+        private RestKeywords rest;
         private readonly Browser browser;
         private string testname;
         public static string BaseUrl { get; private set; }
@@ -37,30 +40,41 @@ namespace Keywords
                     switch (this.browser)
                     {
                         case Browser.INTERNET_EXPLORER:
-                            client = WebDriverClientFactory.WithBrowser(this.browser).WithIgnoreProtectedModeSettings(true).Create();
+                            webClient = WebDriverClientFactory.WithBrowser(this.browser).WithIgnoreProtectedModeSettings(true).Create();
                             break;
                         case Browser.FIREFOX:
-                            client = WebDriverClientFactory.WithBrowser(this.browser).WithAcceptInsecureCertificates(true).Create();
+                            webClient = WebDriverClientFactory.WithBrowser(this.browser).WithAcceptInsecureCertificates(true).Create();
                             break;
                         default:
-                            client = WebDriverClientFactory.WithBrowser(this.browser).Create();
+                            webClient = WebDriverClientFactory.WithBrowser(this.browser).Create();
                             break;
                     }
-                    client.Window().Fullscreen();
-                    ui = new UIKeywords(client);
+                    webClient.Window().Fullscreen();
+                    ui = new UIKeywords(webClient);
 
                 }
                 return ui;
             }
         }
 
-        public void UiCleanUp()
+        public RestKeywords Rest
         {
-            if (client != null)
+            get
             {
-                client.Quit();
+                if (rest == null)
+                {
+                    rest = new RestKeywords(restClient);
+                }
+                return rest;
             }
         }
 
+        public void UiCleanUp()
+        {
+            if (webClient != null)
+            {
+                webClient.Quit();
+            }
+        }
     }
 }

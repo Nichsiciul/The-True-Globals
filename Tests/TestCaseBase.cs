@@ -8,6 +8,8 @@ namespace AutothonTests
         public TestContext TestContext { get; set; }
 
         public WebApp Autothon { get; private set; }
+
+        public string deliveryBaseUrl;
         
         [TestInitialize]
         public void Setup()
