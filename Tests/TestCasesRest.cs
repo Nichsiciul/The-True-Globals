@@ -5,23 +5,11 @@ using System.Net;
 namespace AutothonTests
 {
     [TestClass]
-    public class TestCases : TestCaseBase
+    public class TestCasesRest : TestCaseBase
     {
 
         [TestMethod]
-        [TestCategory("UiTest")]
-        [WorkItem(000000)]
-        public void Check_OpenPage()
-        {
-            //Arrange
-            Autothon.Ui.OpenPage();
-            //Act
-            //Assert
-            Autothon.Ui.IsTrue().Should().BeTrue();
-        }
-        [TestMethod]
         [TestCategory("RestApiTest")]
-        [WorkItem(000001)]
         public void GetPage_HttpStatusOK_Successful()
         {
             // Arrange
