@@ -1,7 +1,7 @@
 ﻿using Keywords;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace ChamaeleonTests
+namespace AutothonTests
 {
     public class TestCaseBase
     {

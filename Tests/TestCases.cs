@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace ChamaeleonTests.TestCases
+namespace AutothonTests
 {
     [TestClass]
     public class TestCases : TestCaseBase
