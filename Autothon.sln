@@ -11,8 +11,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UiHelper", "Helper\UiHelper
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataProvider", "ClassLibrary2\DataProvider.csproj", "{8A99812C-1443-42F4-8235-7ABFBEB78ACE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiHelper", "ApiHelper\ApiHelper.csproj", "{50CBBF06-A187-4473-8B96-AD37DE2E06B4}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossBrowserTesting", "CrossBrowserTesting\CrossBrowserTesting.csproj", "{9E031571-2EB5-4B03-8CB0-D146DCAB9A01}"
 EndProject
 Global
