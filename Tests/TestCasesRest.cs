@@ -14,7 +14,7 @@ namespace AutothonTests
     {
         [TestMethod]
         [TestCategory("RestApiTest")]
-        public void createMovieIsAvailableInListAndCouldBeRent()
+        public void Create_Movie_Is_Available_In_List_And_Could_Be_Rented()
         {
             UserRequest userRequest = new UserRequest();
             userRequest.username = "admin";

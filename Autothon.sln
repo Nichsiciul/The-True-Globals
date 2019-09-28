@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.489
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29324.140
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{AF76C79C-87F8-4F6B-BBBC-5CE010C66A63}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataProvider", "ClassLibrary2\DataProvider.csproj", "{8A99812C-1443-42F4-8235-7ABFBEB78ACE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossBrowserTesting", "CrossBrowserTesting\CrossBrowserTesting.csproj", "{9E031571-2EB5-4B03-8CB0-D146DCAB9A01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiHelper", "ApiHelper\ApiHelper.csproj", "{50CBBF06-A187-4473-8B96-AD37DE2E06B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{9E031571-2EB5-4B03-8CB0-D146DCAB9A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E031571-2EB5-4B03-8CB0-D146DCAB9A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E031571-2EB5-4B03-8CB0-D146DCAB9A01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50CBBF06-A187-4473-8B96-AD37DE2E06B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50CBBF06-A187-4473-8B96-AD37DE2E06B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50CBBF06-A187-4473-8B96-AD37DE2E06B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50CBBF06-A187-4473-8B96-AD37DE2E06B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
