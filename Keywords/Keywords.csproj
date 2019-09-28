@@ -19,6 +19,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ClassLibrary2\DataProvider.csproj" />
+    <ProjectReference Include="..\CrossBrowserTesting\CrossBrowserTesting.csproj" />
     <ProjectReference Include="..\Helper\UiHelper.csproj" />
   </ItemGroup>
 </Project>

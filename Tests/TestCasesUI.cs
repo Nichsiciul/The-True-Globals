@@ -52,19 +52,17 @@ namespace AutothonTests
 
         [TestMethod]
         [TestCategory("UiTest")]
-        public void Check_AddNewMovie_Admin_SaveMovie_Succesfull()
+        public void Check_AddNewMovie_Admin_AddMovie_Succesfull()
         {
             //Arrange
             Autothon.Ui.OpenPage();
             Autothon.Ui.Login(MovieUser.Admin);
             Autothon.Ui.ClickAddMovie();
             //Act
-            var movieTitle = Autothon.Ui.AddMovieData();
+            Autothon.Ui.AddMovieData();
             Autothon.Ui.Save();
             //Assert
-
-            Autothon.Ui.GetLastCreatedMovieTitle().Should().Be(movieTitle);
-    
+            
         }
 
         [TestMethod]

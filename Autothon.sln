@@ -9,9 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Keywords", "Keywords\Keywor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UiHelper", "Helper\UiHelper.csproj", "{13E25A4E-3F93-48C7-9B83-5C0263E59AF3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5D58E41B-4831-4E20-B638-30F1534ECB3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataProvider", "ClassLibrary2\DataProvider.csproj", "{8A99812C-1443-42F4-8235-7ABFBEB78ACE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataProvider", "ClassLibrary2\DataProvider.csproj", "{8A99812C-1443-42F4-8235-7ABFBEB78ACE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossBrowserTesting", "CrossBrowserTesting\CrossBrowserTesting.csproj", "{9E031571-2EB5-4B03-8CB0-D146DCAB9A01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +35,10 @@ Global
 		{8A99812C-1443-42F4-8235-7ABFBEB78ACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A99812C-1443-42F4-8235-7ABFBEB78ACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A99812C-1443-42F4-8235-7ABFBEB78ACE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E031571-2EB5-4B03-8CB0-D146DCAB9A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E031571-2EB5-4B03-8CB0-D146DCAB9A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E031571-2EB5-4B03-8CB0-D146DCAB9A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E031571-2EB5-4B03-8CB0-D146DCAB9A01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
