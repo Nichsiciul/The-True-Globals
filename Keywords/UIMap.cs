@@ -46,5 +46,11 @@ namespace Map
         //Buttons
         public static WebLocator AddMoviedSaveButton = WebLocator.Css(".row.form-group button.btn-success");
         public static WebLocator AddMoviedDiscardButton = WebLocator.Css(".row.form-group button.btn-danger");
+
+
+        //Movie Cards
+        public static WebLocator LastMovieCard = WebLocator.Css(".listwrapper .mycard:last-child");
+        public static WebLocator LastMovieTitle = WebLocator.Css(".listwrapper .mycard:last-child .infos h2:first-child");
+
     }
 }

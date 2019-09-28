@@ -41,14 +41,21 @@ namespace Keywords
             Client.Element(Map.UIMap.NavigationAddMovieLink).Click();
         }
 
-        public void AddMovieData()
+        public String AddMovieData()
         {
-            InsertTitle();
+            String title = InsertTitle();
             InsertDirector();
             InsertDescription();
             InsertCategories();
             InsertURL();
             InsertRating(3);
+
+            return title;
+        }
+
+        public String GetLastCreatedMovieTitle()
+        {
+            return Client.Element(Map.UIMap.LastMovieTitle).GetText();
         }
 
         public void InsertRating(int rating)
@@ -128,10 +135,13 @@ namespace Keywords
             Client.Element(Map.UIMap.AddMovieDirectorField).SetText("Victor Fleming");
         }
 
-        public void InsertTitle()
+        public String InsertTitle()
         {
             var randomNumber = new Random().Next(0, 999999);
-            Client.Element(Map.UIMap.AddMovieTitleField).SetText("Gone with the Wind1" + randomNumber.ToString());
+            String title = "New Movie " + randomNumber.ToString();
+            Client.Element(Map.UIMap.AddMovieTitleField).SetText(title);
+
+            return title;
         }
 
         public bool CheckAdminIsLoggedIn()
