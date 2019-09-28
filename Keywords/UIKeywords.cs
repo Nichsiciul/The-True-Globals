@@ -27,7 +27,6 @@ namespace Keywords
 
         public UIKeywords Login(string username, string password)
         {
-            //FuncWaiter.WaitFor(() => Client.Element(SitecoreUIMap.Username_Field).IsDisplayed() == true, 20, 100);
             Client.Element(Map.UIMap.OpenNavigationButton).Click();
             Sleeper.Sleep(1, SleepReason.UI);
             Client.Element(Map.UIMap.NavigationLoginLink).Click();
@@ -40,6 +39,16 @@ namespace Keywords
         public void ClickAddMovie()
         {
             Client.Element(Map.UIMap.NavigationAddMovieLink).Click();
+        }
+
+        public void AddMovieData()
+        {
+            InsertTitle();
+            InsertDirector();
+            InsertDescription();
+            InsertCategories();
+            InsertURL();
+            InsertRating(3);
         }
 
         public void InsertRating(int rating)
@@ -101,7 +110,7 @@ namespace Keywords
 
         public void InsertURL()
         {
-            Client.Element(Map.UIMap.AddMovieURLField).SetText("https://www.imdb.com/title/tt0031381/");
+            Client.Element(Map.UIMap.AddMovieURLField).SetText("https://picsum.photos/200/300");
         }
 
         public void InsertCategories()
@@ -121,7 +130,8 @@ namespace Keywords
 
         public void InsertTitle()
         {
-            Client.Element(Map.UIMap.AddMovieTitleField).SetText("Gone with the Wind1");
+            var randomNumber = new Random().Next(0, 999999);
+            Client.Element(Map.UIMap.AddMovieTitleField).SetText("Gone with the Wind1" + randomNumber.ToString());
         }
 
         public bool CheckAdminIsLoggedIn()

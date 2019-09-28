@@ -33,20 +33,14 @@ namespace AutothonTests
 
         [TestMethod]
         [TestCategory("UiTest")]
-        public void Check_AddNewMovie_User_Succesfull()
+        public void Check_AddNewMovie_Admin_AddData_Succesfull()
         {
             //Arrange
             Autothon.Ui.OpenPage();
             Autothon.Ui.Login(MovieUser.Admin);
             Autothon.Ui.ClickAddMovie();
             //Act
-            Autothon.Ui.InsertTitle();
-            Autothon.Ui.InsertDirector();
-            Autothon.Ui.InsertDescription();
-            Autothon.Ui.InsertCategories();
-            Autothon.Ui.InsertURL();
-            Autothon.Ui.InsertRating(3);
-            //Autothon.Ui.Save();
+            Autothon.Ui.AddMovieData();
             //Assert
             Autothon.Ui.Title_IsValid().Should().BeTrue();
             Autothon.Ui.Director_IsValid().Should().BeTrue();
