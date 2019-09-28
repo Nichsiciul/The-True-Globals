@@ -8,16 +8,19 @@ namespace ApiHelper.Models
 {
     public class Movie
     {
-        int id { get; }
-        string title { get; set; }
-        string description { get; set; }
-        string image { get; set; }
-        string director { get; set; }
-        int  rating { get; set; }
-        bool rented { get;}
-        List<Review> reviews { get; }
-        enum categories { Comedy, Thriller, Drama };
-        int until { get; }
-        int que { get; }
+        public int id { get; }
+        public string title { get; set; }
+        public string description { get; set; }
+        public string image { get; set; }
+        public string director { get; set; }
+        public int rating { get; set; }
+        public bool rented { get;}
+        public List<Review> reviews { get; }
+
+        public List<Category> categories { set; get; } = new List<Category>();
+
+        public enum Category { Comedy, Thriller, Drama };
+        public int until { get; }
+        public int que { get; }
     }
 }

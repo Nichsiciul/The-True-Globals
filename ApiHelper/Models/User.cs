@@ -8,12 +8,13 @@ namespace ApiHelper.Models
 {
     public class User
     {
-        int id { get;}
-        string username { get; set; }
-        string email { get; set; }
-        string city { get; set; }
-        string street { get; set; }
-        string number { get; set; }
-        List<int>  myMovie { get; }
+        public string id { get; set; }
+        public string username { get; set; }
+        public string email { get; set; }
+        public string city { get; set; }
+        public string street { get; set; }
+        public string number { get; set; }
+        public List<int>  myMovie { get; }
+
     }
 }

@@ -1,47 +1,52 @@
 ﻿using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Net;
-
+using ApiHelper.Models;
+using Newtonsoft.Json;
+using Microsoft.Rest;
+using RestSharp;
+using System;
+using System.Net;
 namespace AutothonTests
 {
     [TestClass]
     public class TestCasesRest : TestCaseBase
     {
-
-        [TestMethod]
-        [TestCategory("RestApiTest")]
-        public void GetPage_HttpStatusOK_Successful()
-        {
-            // Arrange
-            var expected = HttpStatusCode.OK;
-
-            //Act
-            var actual = Autothon.Rest.GetPage(deliveryBaseUrl);
-
-            //Assert
-            actual.Should().Be(expected);
-        }
-
-        [Ignore]
         [TestMethod]
         [TestCategory("RestApiTest")]
         public void createMovieIsAvailableInListAndCouldBeRent()
         {
-
+            UserRequest userRequest = new UserRequest();
+            userRequest.username = "admin";
+            userRequest.password = "password";
 
             // login admin user
-            Autothon.Rest.PostPage(deliveryBaseUrl + "/login", null);
+            var userStr = Autothon.Rest.PostPage("login", userRequest, null);
+
+            var user = JsonConvert.DeserializeObject<User>(userStr);
 
             // create movie
-            var movieStr = Autothon.Rest.PostPage(deliveryBaseUrl + "/movie", null);
-            // assert movie to be sucessfully added
-            // movieStr to object
+            Movie movie = new Movie();
+            movie.title = "Richi Test";
+            movie.description = "Richi Test";
+            movie.image = "https://m.media-amazon.com/images/M/MV5BYzVmYzVkMmUtOGRhMi00MTNmLThlMmUtZTljYjlkMjNkMjJkXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SY1000_CR0,0,675,1000_AL_.jpg";
+            movie.director = "Richi Test";
+            movie.rating = 10;
+            movie.categories.Add(Movie.Category.Comedy);
 
-            // Logout admin user
-            Autothon.Rest.GetPage(deliveryBaseUrl + "/logout");
+            var request = new { movie = movie };
 
+            var movieStr = Autothon.Rest.PostPage("movies", request, user.id.ToString());
+            var movieResponse = JsonConvert.DeserializeObject<Movie>(movieStr);
+
+            Assert.IsNotNull(movie);
+
+
+            Autothon.Rest.GetPage("logout");
+
+            /*
             // Login User
-            Autothon.Rest.PostPage(deliveryBaseUrl + "/login", null);
+            Autothon.Rest.PostPage(deliveryBaseUrl + "/login", null, null);
 
             // Get Movies and check if new is available r
            var movieList = Autothon.Rest.GetPage(deliveryBaseUrl + "/movies");
@@ -50,7 +55,7 @@ namespace AutothonTests
             // rent movie
             Autothon.Rest.GetPage(deliveryBaseUrl + "/rent/" + "{movieId}");
 
-
+    */
         }
     }
 }

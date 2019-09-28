@@ -12,7 +12,7 @@ namespace Keywords
             client = restClient;
             if (restClient == null)
             {
-                client = new RestClient { BaseUrl = new Uri("http://www.google.com"), PreAuthenticate = false };
+                client = new RestClient ( "https://autothon-nagarro-backend-e00.azurewebsites.net");
             }
         }
 
@@ -21,11 +21,7 @@ namespace Keywords
 
         public RestRequest GetRequest(string rescource, Method method)
         {
-            var request = new RestRequest(rescource, method) { RequestFormat = DataFormat.Json };
-            var username = "testuser1";
-            var password = "password1";
-            token = Convert.ToBase64String(System.Text.Encoding.GetEncoding("ISO-8859-1").GetBytes(username + ":" + password));
-            request.AddParameter("Authorization", string.Format($"Basic {token}"), ParameterType.HttpHeader);
+            var request = new RestRequest(rescource, method);
             return request;
         }
 
@@ -59,12 +55,16 @@ namespace Keywords
             }
         #endregion
 
-        public String PostPage(string uri, Object body)
+        public String PostPage(string uri, Object body, String userId)
         {
-            var request = GetRequest(uri, Method.GET);
+            var request = GetRequest(uri, Method.POST);
             request.AddJsonBody(body);
+            if(userId != null)
+            {
+                request.AddHeader("user", userId);
+            }
             var response = Execute(request);
-            if(response.StatusCode.Equals(200))
+            if(response.StatusCode.Equals(HttpStatusCode.OK))
             {
                 return response.Content;
             }
