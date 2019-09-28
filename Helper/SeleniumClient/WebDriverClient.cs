@@ -33,6 +33,10 @@ namespace SeleniumClient
             WebDriver.Quit();
         }
 
+        public object Element(object openNavigationButton)
+        {
+            throw new NotImplementedException();
+        }
 
         public Window Window()
         {

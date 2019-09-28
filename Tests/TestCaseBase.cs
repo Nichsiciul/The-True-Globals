@@ -9,6 +9,8 @@ namespace AutothonTests
 
         public WebApp Autothon { get; private set; }
 
+        public WebApp SecondSession { get; private set; }
+
         public string deliveryBaseUrl;
         
         [TestInitialize]
@@ -17,6 +19,7 @@ namespace AutothonTests
             var browser = TestContext.Properties["Browser"].ToString();
             var deliveryBaseUrl = TestContext.Properties["DeliveryBaseUrl"].ToString();
             this.Autothon = new WebApp(deliveryBaseUrl, browser, TestContext.TestName);
+            this.SecondSession = new WebApp(deliveryBaseUrl, browser, TestContext.TestName);
         }
 
         

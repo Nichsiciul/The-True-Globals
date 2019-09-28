@@ -9,6 +9,7 @@
     <PublishChromeDriver>true</PublishChromeDriver>
   </PropertyGroup>
   <ItemGroup>
+    <Folder Include="Util\" />
     <Folder Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
@@ -26,6 +27,12 @@
     <ProjectReference Include="..\Keywords\Keywords.csproj" />
   </ItemGroup>
   <ItemGroup>
+    <None Update="RunSettings\AndroidTablet.runsettings">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="RunSettings\AndroidMobil.runsettings">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="RunSettings\Chrome.runsettings">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
