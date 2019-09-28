@@ -90,6 +90,11 @@ namespace Keywords
             return Client.Element(Map.UIMap.AddMovieTitleField).GetAttribute("class").Contains("is-valid");
         }
 
+        public void RefreshClient()
+        {
+            Client.Refresh();
+        }
+
         public bool Description_IsValid()
         {
             return Client.Element(Map.UIMap.AddMovieDescriptionField).GetAttribute("class").Contains("is-valid");

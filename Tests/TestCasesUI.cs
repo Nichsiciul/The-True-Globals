@@ -80,6 +80,7 @@ namespace AutothonTests
             //Act
             var movieTitle = SecondSession.Ui.AddMovieData();
             SecondSession.Ui.Save();
+            Autothon.Ui.RefreshClient();
 
             //Assert
             Autothon.Ui.GetLastCreatedMovieTitle().Should().Be(movieTitle);
