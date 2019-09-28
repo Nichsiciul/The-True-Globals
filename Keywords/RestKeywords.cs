@@ -47,12 +47,29 @@ namespace Keywords
         }
 
         #region General
-        public HttpStatusCode GetPage(string uri)
+        public String GetPage(string uri)
         {
             var request = GetRequest(uri, Method.GET);
             var response = Execute(request);
-            return response.StatusCode;
-        }
+            if(HttpStatusCode.OK.Equals(response.StatusCode))
+            {
+                return response.Content;
+            }
+            return null;
+            }
         #endregion
+
+        public String PostPage(string uri, Object body)
+        {
+            var request = GetRequest(uri, Method.GET);
+            request.AddJsonBody(body);
+            var response = Execute(request);
+            if(response.StatusCode.Equals(200))
+            {
+                return response.Content;
+            }
+
+            return null;
+        }
     }
 }
