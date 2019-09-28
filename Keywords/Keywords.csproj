@@ -18,6 +18,7 @@
     <PackageReference Include="Selenium.Chrome.WebDriver" Version="76.0.0" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary2\DataProvider.csproj" />
     <ProjectReference Include="..\Helper\UiHelper.csproj" />
   </ItemGroup>
 </Project>

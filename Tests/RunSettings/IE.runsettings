@@ -3,6 +3,6 @@
   <!-- Parameters used by tests at runtime -->
   <TestRunParameters>
     <Parameter name="Browser" value="IE" />
-    <Parameter name="DeliveryBaseUrl" value="https://www.google.com"/>
+    <Parameter name="DeliveryBaseUrl" value="https://autothon-nagarro-frontend-e00.azurewebsites.net/"/>
   </TestRunParameters>
 </RunSettings>
