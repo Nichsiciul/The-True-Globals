@@ -67,7 +67,6 @@ namespace AutothonTests
     
         }
 
-        [Ignore]
         [TestMethod]
         [TestCategory("UiTest")]
         public void Check_TwoParallelBrowserSessions_User_Succesfull()
@@ -75,11 +74,17 @@ namespace AutothonTests
             //Arrange
             Autothon.Ui.OpenPage();
             Autothon.Ui.Login(MovieUser.User);
-            //Act
+
             SecondSession.Ui.OpenPage();
-            Autothon.Ui.Login(MovieUser.Admin);
-            Autothon.Ui.Rating_IsValid().Should().BeTrue();
+            SecondSession.Ui.Login(MovieUser.Admin);
+            SecondSession.Ui.ClickAddMovie();
+
+            //Act
+            var movieTitle = SecondSession.Ui.AddMovieData();
+            SecondSession.Ui.Save();
+
             //Assert
+            Autothon.Ui.GetLastCreatedMovieTitle().Should().Be(movieTitle);
 
         }
     }
