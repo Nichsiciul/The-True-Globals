@@ -133,7 +133,7 @@ namespace SeleniumClient
                     firefoxOptions.AcceptInsecureCertificates = true;
                     webDriver = new FirefoxDriver(firefoxOptions);
                     break;
-                case Browser.ANDROID:
+                case Browser.ANDROIDMOBIL:
                     throw new NotSupportedException("Please use CrossBrowserTesting Extension instead!");
                 default:
                     throw new UnexpectedClientException("Unknown browser " + browser);

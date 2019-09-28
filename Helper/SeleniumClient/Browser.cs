@@ -11,6 +11,7 @@ namespace SeleniumClient
         INTERNET_EXPLORER,
         CHROME,
         FIREFOX,
-        ANDROID
+        ANDROIDMOBIL,
+        ANDROIDTABLET
     }
 }
